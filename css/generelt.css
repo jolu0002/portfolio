@@ -1,0 +1,46 @@
+/* FONTS */
+@font-face {
+    font-family: "anton";
+    src: url(../fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "gasoek";
+    src: url(../fonts/GasoekOne-Regular.ttf);
+}
+@font-face {
+    font-family: "promptbold";
+    src: url(../fonts/Prompt-Bold.ttf);
+}
+@font-face {
+    font-family: "promptxtra";
+    src: url(../fonts/Prompt-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "promptlight";
+    src: url(../fonts/Prompt-Light.ttf);
+}
+
+h1 {
+    font-family: anton;
+    font-size: 120px;
+    color:brown;
+    cursor: pointer;
+}
+.burgermenu {
+    font-family: promptxtra;
+
+}
+nav.active .burgermenu, .burgera {
+    font-size: 45px;
+    text-align: end;
+  }
+
+h2 {
+    font-family: promptxtra;
+}
+
+/* FARVER */
+body{
+    background-color: rgb(211, 209, 203);
+}
+
