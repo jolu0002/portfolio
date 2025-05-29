@@ -22,8 +22,8 @@
 
 h1 {
     font-family: anton;
-    font-size: 120px;
-    color:brown;
+    font-size: 100px;
+    color:#6C2C25;
     cursor: pointer;
 }
 .burgermenu {
@@ -31,16 +31,41 @@ h1 {
 
 }
 nav.active .burgermenu, .burgera {
-    font-size: 45px;
+    font-size: 35px;
     text-align: end;
   }
 
-h2 {
+h2, h3, h4 {
     font-family: promptxtra;
+}
+p {
+    font-family: promptlight;
 }
 
 /* FARVER */
 body{
-    background-color: rgb(211, 209, 203);
+    background-color: rgb(240, 233, 223);
 }
+
+footer {
+    background-color: #9F4440;
+}
+a {
+
+    text-decoration: none;
+    color:#9F4440;
+}
+a:hover {
+  /* color:#801212; */
+  /* color: #dbd08f; */
+  color: #efe095;
+  border-bottom:#dbd08f 1px solid;
+}
+.projects {
+    background-color: #C8D7D3;
+  }
+  .blue {
+    background-color:#C8D7D3;
+}
+
 

@@ -6,10 +6,10 @@
     display: flex;
     list-style: none;
     position: fixed;
-    margin: 10px;
+    
     width: auto;
     color: #A22A2A;
-    line-height: 21px;
+    line-height: 40px;
 
   }
   
@@ -66,13 +66,15 @@
   
     nav.active .burgermenu {
       display:block;
-      position:absolute;
-      top: 120px;
-      right: 400px;
+      /* position:absolute; */
+      top: 67px;
+      right: -20px;
       width: 100%;
       z-index: 1;
+      height:100%;
 
     }
+    
   }
     nav.active .burgermenu li {
       margin: 10px 20px;
@@ -83,11 +85,17 @@
   .burgeroverlay {
     position: absolute;
     top: 30px;
-    right: 40px;
+    right: 20px;
      margin-left: 8px;
-     cursor: pointer;
      
      
+     
+ }
+ ul {
+  background-color: #970707bf;
+  /* background-color: #a22a2a9d; */
+  width: 100%;
+  
  }
   
 /* MAIN */
@@ -103,14 +111,27 @@ img {
   text-align: left;
   margin-top: 300px;
   line-height: 110px;
+}
+.burgera {
+  color:#d6d5d5;
+}
+.burgeras {
+  padding-top: 40px;
+}
+.overskrift a:hover {
+  border-bottom: none;
+}
 
+.grid1_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-a {
-    text-decoration: none;
-    color:#A22A2A;
+/* underside om mig */
+.mig {
+  margin-top: 20%;
 }
-a:hover {
-    color:#801212;
+.underside {
+  text-align: center;
 }
 
 /* FOOTER */
