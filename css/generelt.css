@@ -31,7 +31,7 @@ h1 {
 
 }
 nav.active .burgermenu, .burgera {
-    font-size: 35px;
+    font-size: 20px;
     text-align: end;
   }
 
@@ -43,6 +43,9 @@ p {
 }
 
 /* FARVER */
+.scrolled {
+    background-color: #6C2C25;
+}
 body{
     background-color: rgb(240, 233, 223);
 }
@@ -62,7 +65,7 @@ a:hover {
   border-bottom:#dbd08f 1px solid;
 }
 .projects {
-    background-color: #C8D7D3;
+    background-color: #dbd08f;
   }
   .blue {
     background-color:#C8D7D3;

@@ -20,6 +20,7 @@
   
   .burgermenu, .burgera {
     padding: 10px;
+    padding-bottom: 0;
     text-decoration: none;
     transition: color 0.3s;
     text-align: right;
@@ -40,6 +41,14 @@
     margin-bottom: 5px;
     transition: 0.2s linear;
   
+  }
+  .headerfarve {
+    height:28px;
+    position: fixed;
+    top: 0;
+    padding:20px;
+    background-color: #A22A2A;
+    width:800px;
   }
   @media screen {
     .burgermenu {
@@ -83,7 +92,7 @@
   
   
   .burgeroverlay {
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 20px;
      margin-left: 8px;
@@ -121,17 +130,39 @@ img {
 .overskrift a:hover {
   border-bottom: none;
 }
+.titel {
+  font-size: 70px;
+  cursor:default;
+}
 
-.grid1_1_1_1 {
+/* .grid1_1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+} */
+
+/* Forisde */
+.projects {
+  margin-top: 30px;
 }
-/* underside om mig */
+/* Underside om mig */
 .mig {
   margin-top: 20%;
 }
 .underside {
   text-align: center;
+}
+/* Underside emnesite */
+.alice {
+  margin-top: 15%
+}
+/* underside emergency */
+.plet {
+  margin-top: 15%;
+}
+
+/* underside virksomhed */
+.allan {
+  margin-top: 15%;
 }
 
 /* FOOTER */

@@ -18,4 +18,34 @@ function menuClick() {
   nav.classList.remove("active");
 }
 
+// ÆNDR FARVE VED SCROLL
 
+
+ 
+Window.addEventListener("scroll", function(){
+
+
+const header = document.querySelector(".headerfarve");
+
+  if (Window.scrollY > 50) {
+  header.classList.add("scrolled");
+} else {
+  header.classList.remove("scrolled");
+}
+});
+
+// document.addEventListener(DOMContentLoaded, function (){
+//   document.addEventListener("scroll", function (){
+
+ 
+
+// const header = document.getElementById("mainHeader");
+// const scrollTop = document.documentElement.scrollTop; 
+
+// if (scrollTop > 50) {
+//   header.classList.add("scrolled");
+// } else {
+//   header.classList.remove("scrolled");
+// }
+//  });
+// });
