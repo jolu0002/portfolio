@@ -23,8 +23,7 @@
 h1 {
     font-family: anton;
     font-size: 100px;
-    color:#6C2C25;
-    cursor: pointer;
+    color:#532E31;
 }
 .burgermenu {
     font-family: promptxtra;
@@ -43,32 +42,44 @@ p {
 }
 
 /* FARVER */
-.scrolled {
-    background-color: #6C2C25;
-}
-body{
-    background-color: rgb(240, 233, 223);
+
+body {
+    background-color: #914E56;
 }
 
 footer {
-    background-color: #9F4440;
+    background-color: #914E56;
 }
 a {
 
     text-decoration: none;
-    color:#9F4440;
+    color:#532E31;
 }
+.burgera {
+    color:#d6d5d5;
+  }
 a:hover {
   /* color:#801212; */
   /* color: #dbd08f; */
-  color: #efe095;
-  border-bottom:#dbd08f 1px solid;
+  color: #e6d389;
+  border-bottom:#e6d389 1px solid;
+}
+.hover-link:hover {
+    color:#532E31;
+    border-bottom: none;
 }
 .projects {
-    background-color: #dbd08f;
+    background-color: #dcd2ab;
   }
   .blue {
     background-color:#C8D7D3;
+}
+
+ul {
+    background-color:#4d303fc3;
+}
+.headerfarve {
+    /* background-color: #A22A2A; */
 }
 
 

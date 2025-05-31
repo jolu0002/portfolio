@@ -9,7 +9,6 @@ burger.addEventListener("click", burgerClick);
 function burgerClick() {
   burger.classList.toggle("active");
   nav.classList.toggle("active");
-  overlay.classList.toggle("body-blur");
 }
 
 menu.addEventListener("click", menuClick);
@@ -20,12 +19,11 @@ function menuClick() {
 
 // ÆNDR FARVE VED SCROLL
 
-
+const header = document.querySelector(".headerfarve");
  
 Window.addEventListener("scroll", function(){
+  console.log(window.scrollY);
 
-
-const header = document.querySelector(".headerfarve");
 
   if (Window.scrollY > 50) {
   header.classList.add("scrolled");

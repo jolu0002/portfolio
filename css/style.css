@@ -31,13 +31,12 @@
   .burger {
     width: 30px;
     height: 20px;
-    cursor: pointer;
   }
   
   .burger .line {
     width: 100%;
     height: 2px;
-    background-color: #A22A2A;
+    background-color: #ffffff;
     margin-bottom: 5px;
     transition: 0.2s linear;
   
@@ -47,7 +46,6 @@
     position: fixed;
     top: 0;
     padding:20px;
-    background-color: #A22A2A;
     width:800px;
   }
   @media screen {
@@ -101,8 +99,6 @@
      
  }
  ul {
-  background-color: #970707bf;
-  /* background-color: #a22a2a9d; */
   width: 100%;
   
  }
@@ -111,6 +107,7 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: url(../img/cursor.png), auto;
 }
 img {
   width: 100%;
@@ -121,9 +118,6 @@ img {
   margin-top: 300px;
   line-height: 110px;
 }
-.burgera {
-  color:#d6d5d5;
-}
 .burgeras {
   padding-top: 40px;
 }
@@ -132,7 +126,6 @@ img {
 }
 .titel {
   font-size: 70px;
-  cursor:default;
 }
 
 /* .grid1_1_1_1 {
@@ -143,7 +136,40 @@ img {
 /* Forisde */
 .projects {
   margin-top: 30px;
+  background-image: url(../img/cirkel_s.webp);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 70%;
 }
+.circle {
+  height: 400px;
+}
+.emnesiteimg, .emergencyimg, .kaffeimg, .virksomhedimg {
+  width: 70%;
+}
+.hover-link {
+  position: relative;
+  color: #E4E2DD;
+  font-family: promptbold;
+  display: inline-block;
+}
+.hover-billede {
+  position: absolute;
+  top: 20px;
+  left: 150%;
+  width: 200px;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  z-index: 1;
+}
+.hover-link:hover .hover-billede {
+  opacity: 1;
+}
+
+
+
+
 /* Underside om mig */
 .mig {
   margin-top: 20%;
