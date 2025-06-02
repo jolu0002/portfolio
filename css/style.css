@@ -127,7 +127,16 @@ img {
 .titel {
   font-size: 70px;
 }
-
+.projektlink{
+  font-size: 30px;
+}
+.projektlink:hover {
+  border: none;
+}
+.projektdiv {
+  text-align: center;
+  margin-bottom: 20px;
+}
 /* .grid1_1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -192,17 +201,36 @@ img {
 }
 /* Underside emnesite */
 .alice {
-  margin-top: 15%
+  margin-top: 15%;
+  border-bottom: #532E31 2px solid;
+}
+video {
+  height: 100%;
+  width:300px;
+}
+.prototype {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 /* underside emergency */
 .plet {
   margin-top: 15%;
+  border-bottom: #532E31 2px solid;
 }
+/* underside sandkasse */
+
+.lottie {
+  margin-top: 15%;
+  border-bottom: #532E31 2px solid;
+}
+
 
 /* underside virksomhed */
 .allan {
   margin-top: 15%;
+  border-bottom: #532E31 2px solid;
 }
 
 /* FOOTER */
@@ -212,6 +240,7 @@ img {
   align-items: center;
   text-align: center;
   padding: 20px;
+  border-top:#532E31 2px solid;
 }
 .info {
   grid-column: 1/2;
