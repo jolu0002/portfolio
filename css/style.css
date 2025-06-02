@@ -152,11 +152,14 @@ img {
   color: #E4E2DD;
   font-family: promptbold;
   display: inline-block;
+  font-size: 22px;
+  margin-left:10px;
+  margin-top: 5px;
 }
 .hover-billede {
   position: absolute;
   top: 20px;
-  left: 150%;
+  left: 100%;
   width: 200px;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -167,7 +170,17 @@ img {
   opacity: 1;
 }
 
+.frontdiv:first-of-type {
+  margin-top: 180px;
+}
 
+
+.h2front {
+  text-align: center;
+  padding-top: 10px;
+  color: #f1e9cc;
+  font-size: 32px;
+}
 
 
 /* Underside om mig */
@@ -181,6 +194,7 @@ img {
 .alice {
   margin-top: 15%
 }
+
 /* underside emergency */
 .plet {
   margin-top: 15%;
@@ -192,3 +206,18 @@ img {
 }
 
 /* FOOTER */
+.footergrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.info {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.link {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}

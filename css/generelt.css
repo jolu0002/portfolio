@@ -40,6 +40,9 @@ h2, h3, h4 {
 p {
     font-family: promptlight;
 }
+.footerabout {
+    font-family: promptbold;
+}
 
 /* FARVER */
 
@@ -59,14 +62,14 @@ a {
     color:#d6d5d5;
   }
 a:hover {
-  /* color:#801212; */
-  /* color: #dbd08f; */
   color: #e6d389;
   border-bottom:#e6d389 1px solid;
 }
 .hover-link:hover {
     color:#532E31;
-    border-bottom: none;
+    border-bottom: #532E31 1px solid;
+    
+    
 }
 .projects {
     background-color: #dcd2ab;
@@ -80,6 +83,9 @@ ul {
 }
 .headerfarve {
     /* background-color: #A22A2A; */
+}
+.info {
+    color: #532E31;
 }
 
 
