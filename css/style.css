@@ -205,10 +205,16 @@ img {
   border-bottom: #532E31 2px solid;
 }
 /* underside website */
+.web_p1 {
+  margin-top: 30px;
+}
 /* underside emnesite */
 .alice {
   margin-top: 15%;
   border-bottom: #532E31 2px solid;
+}
+.emne_p1 {
+  margin-top: 30px;
 }
 video {
   height: 100%;
@@ -225,11 +231,23 @@ video {
   margin-top: 15%;
   border-bottom: #532E31 2px solid;
 }
+.emer_p1 {
+  margin-top: 30px;
+}
+.emer_p3 {
+  margin-top: 30px;
+}
 /* underside sandkasse */
 
 .lottie {
   margin-top: 15%;
   border-bottom: #532E31 2px solid;
+}
+.sand_p1 {
+  margin-top: 30px;
+}
+.sand_p3 {
+  margin-top: 30px;
 }
 
 
@@ -237,6 +255,9 @@ video {
 .allan {
   margin-top: 15%;
   border-bottom: #532E31 2px solid;
+}
+.virk_p1 {
+  margin-top: 30px;
 }
 
 
