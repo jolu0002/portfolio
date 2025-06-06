@@ -108,6 +108,9 @@ a:hover {
 .red {
     background-color: #b38f8e;
 }
+.orange {
+    background-color: #b7c2ac;
+}
 ul {
     background-color:#4d303fc3;
 }
@@ -118,6 +121,7 @@ h3 {
     color: #532E31;
     margin-left: 30px;
 }
+
 
 @media (width >= 580px) {
     p {
