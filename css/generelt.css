@@ -34,8 +34,12 @@ nav.active .burgermenu, .burgera {
     text-align: end;
   }
 
-h2, h3, h4 {
+h2 {
     font-family: promptxtra;
+}
+h3, h4 {
+    font-family: promptbold;
+    
 }
 p {
     font-family: promptlight;
@@ -50,8 +54,15 @@ footer p {
 .projektlink {
     font-family:promptbold;
 }
+.pfooter {
+    font-size: 14px;
+}
 
 /* FARVER */
+
+p {
+    color: #252422;
+}
 
 body {
     background-color: #914E56;
@@ -95,7 +106,7 @@ a:hover {
    
 }
 .red {
-    background-color: #ca9f91;
+    background-color: #b38f8e;
 }
 ul {
     background-color:#4d303fc3;
@@ -103,5 +114,27 @@ ul {
 .info {
     color: #532E31;
 }
+h3 {
+    color: #532E31;
+    margin-left: 30px;
+}
 
+@media (width >= 580px) {
+    p {
+        font-size: 20px;
+       
+    }
+    .h2_desktop {
+        font-family: promptlight
+    }
+    
+    .overskrift {
+        color: #e6d389;
+    }
+    .overskrift:hover {
+        color: #532E31;
+    }
+    
+
+}
 
