@@ -1,5 +1,18 @@
 /* HEADER */
 
+/* LOGO */
+.cirkel_logo {
+  width: 60px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.logo_link:hover {
+  border: none;
+  cursor: url(../img/cursor_hover.png), auto;
+}
+.cirkel_logo:hover {
+  cursor: url(../img/cursor_hover.png), auto;
+}
 /* BURGERMENU */
   
 .burgermenu {
@@ -93,11 +106,11 @@
     position: fixed;
     top: 30px;
     right: 20px;
-     margin-left: 8px;
-     
-     
-     
+     margin-left: 8px;  
  }
+.burger:hover {
+  cursor: url(../img/cursor_hover.png), auto;
+}
  ul {
   width: 100%;
   
@@ -196,7 +209,7 @@ img {
 
 /* Underside om mig */
 .mig {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 .underside {
   text-align: center;
@@ -210,7 +223,7 @@ img {
 }
 /* underside emnesite */
 .alice {
-  margin-top: 15%;
+  margin-top: 10%;
   border-bottom: #532E31 2px solid;
 }
 .emne_p1 {
@@ -228,7 +241,7 @@ video {
 
 /* underside emergency */
 .plet {
-  margin-top: 15%;
+  margin-top: 10%;
   border-bottom: #532E31 2px solid;
 }
 .emer_p1 {
@@ -240,7 +253,7 @@ video {
 /* underside sandkasse */
 
 .lottie {
-  margin-top: 15%;
+  margin-top: 10%;
   border-bottom: #532E31 2px solid;
 }
 .sand_p1 {
@@ -253,7 +266,7 @@ video {
 
 /* underside virksomhed */
 .allan {
-  margin-top: 15%;
+  margin-top: 10%;
   border-bottom: #532E31 2px solid;
 }
 .virk_p1 {
