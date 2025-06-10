@@ -122,6 +122,14 @@ h3 {
     margin-left: 30px;
 }
 
+.projektlink:hover {
+    border-bottom: #e6d389 1px solid;
+  }
+  .sandkasse_projektlink:hover {
+    border-bottom: #cdb65a 1px solid;
+    color: #cdb65a;
+  }
+
 
 @media (width >= 580px) {
     p {
